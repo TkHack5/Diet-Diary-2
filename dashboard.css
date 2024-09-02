@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('images/background-dashboard.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+    width: 300px;
+}
+
+.sidebar h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    background: url('images/logo.png') no-repeat center top;
+    background-size: 50px; /* Adjust size if needed */
+    padding-top: 60px; /* Adjust padding if needed */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #e2e2e2;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.recent-activities {
+    margin-top: 30px;
+}
+
+.recent-activities h2 {
+    font-size: 28px;
+    color: #007BFF;
+}
+
+.recent-activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activities ul li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.recent-activities ul li:hover {
+    background: #f9f9f9;
+}
